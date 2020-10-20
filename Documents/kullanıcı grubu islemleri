@@ -1,31 +1,6 @@
 # Kullanıcı Grubu İslemleri #
 
 
-Not : sudo su   kullanıcı islemlerinde kullanılır.(kullanıcı silme,ekleme v.b)
-
-Not : kullanıcı islemleri root yetkisi isterler bu yüzden sudo su komutu ile fatih kullanıcısından
-      root a geceriz
-
-
-adduser    kullanıcı ekler
-
-deluser    kullanıcı siler (Ancak home dosyasındaki dosyasını bırakır.)
-
-
-deluser --remove-home   hem kullanıcı hemde kullanıcının home klasöründeki dosyasını siler
-
-
-Note : Eger bir kullanıcının home klasöründeki bilgisini silmek istiyorsanız ama kullanıcı 
-       önceden sistemden silinmis ve yoksa ilk olarak adduser ile kullanıcı tekrar ekleyip
-       daha sonra --remove-home  komutunu kullanarak hem sistemden hem home klasöründen silmis
-       olursunuz.
-
-
-passwd     kullanıcı parolası degistirir
-
-
-passwd --help   ile bakarak kullanıcı üzerinde kitleme,acma gibi farklı islemler yapabilirsiniz
-
 
 addgroup   grup olusturma
 
