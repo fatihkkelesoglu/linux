@@ -1,0 +1,17 @@
+# Dizin Olusturma ve Silme İslemleri #
+
+
+mkdir   Dizin(Klasör) Ekleme komutudur 
+
+rmdir   Dizin(Klasör) Silme komutudur
+
+touch   Dosya ekleme komutudur
+
+rm      Dosya silme komudur
+
+
+*     bulunduğum konum içerisinde ne varsa hepsini sil temizle demektir.
+
+
+Not : Eğer terminal ekranında Masaüstündeyken rm * seklinde bir islem yaparsanız masaüstününüzde
+      bulunan tüm dosya ve klasörler silinecektir!
