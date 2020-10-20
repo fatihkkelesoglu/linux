@@ -1,0 +1,13 @@
+# Dosya ve Klasör Listeleme İşlemleri #
+
+/   slash komutu root dizinini gösteriyor
+
+~   home işareti
+
+..  bir üst dizini ifade eder
+
+ls  komutu listeleme işlemi yapar
+
+ls -l  parametresi ile kullanırsa klasör ve dosyaların kullanıcı ve grup bilgilerinide görebiliriz
+
+
