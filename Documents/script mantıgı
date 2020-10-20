@@ -1,0 +1,22 @@
+# Script Mantığı #
+
+
+
+date >>  /home/fatih/Masaüstü/SaatBilgisi
+
+
+Bunu crontab tan kopyalayıp not defterine kaydediyoruz.Kaydettigimiz dosyanın uzantısını .sh
+yapıyoruz. Saat.sh olarak degistirdik
+
+
+/home/fatih/Masaüstü/Saat.sh
+
+
+Daha sonra bunu yine gidip crontab a yapıstırıyoruz.Script olarak calıstırmıs oluyoruz.
+
+
+Önemli Not : Dosyayı script olarak kaydettikten sonra özelliklerine gidip izinler kısmından ;
+
+Çalıştırma : "Dosyayı bir program gibi çalıştırmaya izin ver" sekmesine tik koyuyoruz.
+
+

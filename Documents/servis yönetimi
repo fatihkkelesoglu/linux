@@ -1,0 +1,34 @@
+# Servis Yönetimi #
+
+
+servise --status-all    bize tüm servislerin listesini veriyor
+
+
+Servis yönetimi yapmanın iki yöntemi vardır ;
+
+
+
+1.Yöntem 
+
+
+systemctl    servisler üzerinde acma,durdurma,restart gibi islemler yapmamızı saglar
+
+
+system ctl status ufw       status kısmı ne yapacagın hakkındaki aksiyon, ufw ise servisin ismi
+
+
+
+2.Yöntem 
+
+
+servise ufw status
+
+
+#İki yöntem arasında sadece yazım sırası farkı var,yaptıkları is tamamen aynıdır.
+
+
+
+1.Yöntem       systemctl status ufw       /       2.Yöntem      servise ufw status
+           
+
+

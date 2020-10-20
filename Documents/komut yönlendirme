@@ -1,0 +1,19 @@
+# Komut Yönlendirme #
+
+
+>     çıktı komutunu yönlendirir,yazdırır
+
+>>    çıktı komutunu yazdırır ama bir önceki bilgiyi silmez altına yazdırır.
+
+
+Not : Eğer > ile islem yaparsanız önceki bilgiyi korumaz direk üzerine yazdırır,eski bilgi
+      silinmis olur.
+
+
+2>>   Hata mesajlarında yazdırır,tutar. (Hata bulunduğunu zaman kullanılır.)
+
+
+grep  Arama yapar ve bulduklarını ekrana yazdırır
+
+
+|     pipe komutu

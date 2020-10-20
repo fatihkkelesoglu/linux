@@ -1,0 +1,41 @@
+# Crontab Zamanlayıcı Görevler #
+
+https://crontab.guru/     (Crontab zamanlayıcı sitesi)
+
+
+
+nano /etc/crontab   zamanlayıcıyı acar,sudo moddo olman gerek (crontab listesi)
+
+
+
+Görev ekleme şeması ;
+
+
+
+* * * * *  fatih >>  /home/fatih/Masaüstü/SaatBilgisi
+
+
+
+Yukarıdaki noktalar crontab zamanlayıcısındaki saat,gün,ay,haftanın hangi günü v.b bilgileri icerir
+
+fatih kısmı hangi kullanıcınıda oldugumuzu gösterir
+
+>>  ekrana yazdırma komutu
+
+son olarak gördüğümüz kısım ise masaüstüne saatbilgisi seklinde bir dosya olusturup icerisine
+istedigimiz görevi yazıcaktır.
+
+
+Not : * * * * *     bunun kısaca anlamı her dakika calistir
+
+Not : Görevi crontab listesine ekledikten sonra ctrl + O ve daha sonra ctrl + X yaparak kaydedip
+      cıkarız.
+
+
+ls -l /etc/cron*      komutu ile cronun kendi hourly,weekly,monthly gibi zaman şemalarını 
+                      görebiliriz.Dosyamızı bunlardan birine atarakta otomatikmen burdaki 
+                      semalara göre calısmasınız saglayabiliriz.Ama özel birsey yapıcaksak crontaba
+                      gidip kendimiz yazarız.
+
+
+*/2   ---> 2 günde bir yap anlamı vardır
