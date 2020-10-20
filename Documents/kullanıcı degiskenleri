@@ -1,0 +1,35 @@
+# Kullanıcı Degiskenleri #
+
+
+1- Degisken olusturulurken degisken ismi sayi ile baslamaz.
+
+2- Degisken olusturulurken türkce karakter kullanılmaz.
+
+3- İki veya daha fazla kelimeden olusan degisken isimlerini _ (alt-tire) kullanarak yazabilirsin.
+
+
+    Bilgi_İslem     Insan_Kaynaklari
+
+
+4- Her degisken $ isareti ile baslar.
+
+5- Kullanıcı degiskenlerine sistem degiskenlerini atayabiliriz.
+
+
+                 
+                   MevcutDosyaYolu="$PWD"
+
+                   echo $MevcutDosyaYolu
+
+
+Örnek Degisken ;
+
+
+
+                  BilgisayarTesti="Linux"
+
+                  echo $BilgisayarTesti
+
+
+
+Not : BilgisayarTesti olusturdugumuz degiskendir.

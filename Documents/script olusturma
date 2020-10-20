@@ -1,0 +1,25 @@
+# Script Olusturma #
+
+
+1-Masaüstünde linuxkodum dosyası olustur
+
+2-linuxkodum dosyasını sürükle ve visual studio ya at
+
+3-Acilan visual code ekranında echo "Merhaba Dublin 8" yazdık
+
+4-shell ekranında ./linuxkodum yazıp calıstırdık
+
+5-chmod +x scriptkodum  ---> linuxkodum scriptine çalıştırma yetkisi verdi 
+                             (Tik koyarak yaptığımız isi shell üzerinden yaptık)
+
+Not : + anlamı birsey ekledigim icin , x anlamı ise calistirma yetkisi
+
+
+Not : Visual Studio'ya kodunu yazdıktan sonra CTRL + S yaparak kaydetmeyi unutma!
+
+
+
+
+
+
+

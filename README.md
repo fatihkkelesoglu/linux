@@ -16,3 +16,5 @@ Bu projemde linux eğitimlerime ve çalışmalarıma devam ederken öğrendiğim
 4- Dosya/Dizin Kopyalama,Tasıma ve İsim Degistirme İslemleri
 
 5- Dosya/Dizinlerin Sahiplik ve Grup Bilgilerini Degistirmek
+
+6- Arsiv Olusturma ve Cikarma İslemleri

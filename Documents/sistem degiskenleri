@@ -1,0 +1,32 @@
+# Sistem Degiskenleri #
+
+
+Not : Degiskenler her zaman $ isareti ile baslar ve büyük harfle yazilir.
+
+
+echo $BASH
+
+echo $HOME
+
+echo $HOSTNAME
+
+echo $USER
+
+echo $TERM
+
+echo $BASH_VERSION
+
+echo $LANG
+
+echo $PDW    --->  O an açık bulunduğu dizinin yolunu verir,kullanıslıdır.
+
+
+
+Önemli Not : Visual Studio icerisinde kodunu yazarken her zaman cift tırnak kullanarak yaz.
+             (Cift tırnak icerisine yaz!)
+
+
+
+                     echo   "Hello Dublin 8"
+          
+                     echo   "$PWD"

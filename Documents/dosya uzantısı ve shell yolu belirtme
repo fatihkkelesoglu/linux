@@ -1,0 +1,37 @@
+# Dosya Uzantısı ve Shell Yolu Belirtme #
+
+
+Script Yazarken ;
+
+
+1-Dosya uzantısını sh yapmayı unutma.Bunun iki basit yöntemi vardır ;
+
+
+* Masaüstünden gidip dosyanın sonuna .sh eklersin
+
+* mv komutunu kullanarak yaparsın
+
+
+2- Shell yolunu belirtmeyi unutma!
+
+
+echo $BASH
+
+echo $SHELL
+
+İkisi de bulunduğun shell tabanını gösterir ve aynı isi yapar.
+
+
+/bin/bash   ---> bu senin kullandigin shell uzantisi
+
+
+cat /etc/shells    ---> tüm shell uzantılarını gösterir
+
+
+
+
+#! /bin/bash   ---> Visual Studio kod metninin basina eklemeyi unutma!
+                    (Scriptini acan kisi bash tabanda yazildigini anlasin ve ona göre kullansın)
+
+
+

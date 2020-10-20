@@ -1,0 +1,13 @@
+# Metin Dosyaları ile İslem Yapmak #
+
+
+cat    dosyaların içini göstermeye yarar,ekranı yazdırır
+
+more   cat ile aynı isi yapar ancak içerik cok büyükse more kullanırsak sana yazdıracagın ekranı
+       parca parca gösterir,kullanıslı olabilir
+
+
+head -n 3   --->  bastan ilk üc satiri gösterir
+
+
+tale -n 5   --->  sondan ilk bes satiri gösterir

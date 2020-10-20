@@ -1,0 +1,28 @@
+# Dosyanın Terminalde İstenilen Yerden Calismasini Saglamak #
+
+
+Önemli Not : Scriptini bin klasörünün icerisine atarsan heryerden calistirilir,yoksa her seferinde
+             uzun yolunu yazmalısın.
+
+
+root/bin
+
+
+
+sudo cp /home/fatih/Masaüstü/linuxkodum.sh  /bin/
+
+
+sudo ---> yönetici izni
+
+
+cp ---> kopyalama
+
+
+/home/fatih/Masaüstü/linuxkodum.sh   --->  kaynak
+
+
+/bin/   --->  hedef
+
+
+Kısaca Özeti : Kaynak dosyayı hedefe kopyala!
+
