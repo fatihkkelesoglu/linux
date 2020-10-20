@@ -1,0 +1,13 @@
+# Dosya Dizin Kopyalama,Tasıma ve İsim Degistirme #
+
+
+mv    tasıma komutudur  (move'dan gelir)
+
+cp    kopyalama komudur  (copy'den gelir)
+
+
+Not : Bir klasör veya dosya ismi değiştirmek istediğimizde de bu komutları kullanabiliriz.
+
+
+mv test1 kitap.txt    #Bu şekilde bir komut girdiğimizde test1 ismindeki dosyayı kitap.txt olarak
+                       degistiricektir.
