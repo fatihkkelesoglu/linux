@@ -1,0 +1,22 @@
+# Arsiv Olusturma ve Cikarma İslemleri #
+
+
+tar      komutu arşivleme yapar,dosyaları toplar biraraya getirip arşivler.
+
+
+tar -cf   --->  arşivler
+
+tar -xf   --->  çıkartır
+
+
+
+Not : f parametresi dosyanın ismini burada beklirtmek için kullanılır.
+
+Not : v parametresi -cvf   gibi bir kullanım yapıp araya v parametresi koyarsan arsivlenen veya
+      cıkartılan dosya isimlerini listeler,gösterir.
+
+
+
+ tar -cvf  fatih.tar  *    ----> Masaüstü konumda olduğumuzu varsayalım eğer bu komutu kullanırsak
+                                 masaüstünde gördüğümüz tüm klasör ve dosyaları fatih.tar adinda
+                                 tar klasörü olusturup icine arsivleyecektir.
