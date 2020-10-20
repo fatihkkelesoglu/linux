@@ -1,0 +1,22 @@
+# Dosya ve Dizinlerde Sahiplik ve Grup Bilgisi Degistirme #
+
+
+Not : Bir klasörün veya dosyanın sahiplik,grup bilgisi değiştirmek istediğimizde root yetkisine
+      sahip olmamız gerekir.
+
+
+sudo      root yetkisine olmak için kullanılır      (sudo su)
+
+chown     dosya ve dizinlerin sahiplik bilgilerini degistirir
+
+chgrp     dosya ve dizinlerin grup bilgilerini degistirir
+
+
+Not : Shell ekranında /   ile   "     "   yaptığı iş aynıdır!  (ters slash ve çift tırnak)
+
+
+Not : -R   yi (chown/chgrp) ile birlikte kullanırsan tüm alt klasör ve dosyalara işlem uygular.
+
+
+Not : Bu islemleri yapabilmek için bilgisayarınızda en az 2 veya daha fazla kullanıcı olmalıdır,benim bilgisayarımda 2.kullanıcı sevket kullanıcısıydı.Bu yüzden deneme1.txt klasörünün
+sahiplik ve grup bilgilerini sevket kullanıcısı ile degistirdim.
