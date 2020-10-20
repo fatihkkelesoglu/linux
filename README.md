@@ -8,3 +8,11 @@ Bu projemde linux eğitimlerime ve çalışmalarıma devam ederken öğrendiğim
 *Linux İşlemleri
 
 1- Dosya ve Klasör Listeme İşlemleri
+
+2- Dizinler Arası Gezinme
+
+3- Dosya/Dizin Olusturma ve Silme İslemleri
+
+4- Dosya/Dizin Kopyalama,Tasıma ve İsim Degistirme İslemleri
+
+5- Dosya/Dizinlerin Sahiplik ve Grup Bilgilerini Degistirmek
