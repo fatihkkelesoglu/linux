@@ -1,0 +1,74 @@
+# Argümanlar #
+
+read -p  "İsminizi Girin: " isim
+
+echo  $isim
+
+
+#read komutu ile kullanıcıdan bir veri alırız ve echo komutuyla bu girdiyi ekrana yazdırırız.
+
+
+-----------------------------------------------------------------------------------------------
+
+
+./linuxkodum.sh fatih semih leyla 19 81
+
+echo $2
+
+
+#direk kullanıcı satırından girdileri alırız ve hangisiyle islem yapıcaksak echo komutuyla ekrana
+yazdırırız.
+
+
+semih ekrana gelir!
+
+
+-----------------------------------------------------------------------------------------------
+
+
+girilen_argumanlar=("$@")
+echo ${girilen_argumanlar[2]}
+
+
+@  ---> bütün girilen verileri sec anlami var,hepsini alır bir alttaki kod ise onlarin icinden
+        2'yi ekrana yazdırır.
+
+Önemli Not : @ dizi mantığında calıstıgı icin 0'dan baslar yani 0,1,2 dşye gider bu yüzden;
+
+             ekrana leyla gelir!
+
+
+
+-----------------------------------------------------------------------------------------------
+
+girilen_argumanlar=("@")
+echo $#
+
+
+$# ---> girilen argümanların tamamının adedini ekrana yazdırır
+
+ekrana 5 gelir!
+
+
+------------------------------------------------------------------------------------------------
+
+girilen_argumanlar=("@")
+echo $*
+
+
+$* ---> girilen degerleri string degil yazı olarak ekrana getirir.
+
+ekrana  fatih semih leyla 19 81   gelir!
+
+
+
+
+
+
+
+
+
+
+
+
+
