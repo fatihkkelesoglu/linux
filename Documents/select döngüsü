@@ -1,0 +1,30 @@
+# Kontrol Yapıları ve Döngüler #
+
+# Select Döngüsü #
+
+
+
+# Select Kullanımı #
+
+
+Select ---> Bize secili bir liste sunuyor,numaralı bir liste sunuyor.Kullanıcının tıkladığı sırasına
+            göre gerekli atlamaları yaparak istediğimiz kodları calıstırabiliriz.Select genellikle
+            case ile birlikte kullanılır.Kısacası select ile biz bir liste olustuyoruz ve sectiğimiz
+            elemanlara bazı islemler yaptırabiliyoruz diyebiliriz.
+
+
+Select Kullanım Şablonu ; 
+
+
+
+
+                        select       in          Not : do ile done arasına kodlarımızı yazıyoruz
+
+                        do
+
+
+
+
+
+
+                        done
