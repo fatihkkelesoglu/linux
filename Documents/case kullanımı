@@ -1,0 +1,49 @@
+# Kontrol Yapıları ve Döngüler #
+
+# Case Kullanımı #
+
+
+Kod satırımızda caseler kullanmak hem isimizi cok kolaylastirir hemde kodumuzun daha güzel bir
+sekilde gözükmesini saglar,bu yüzden case kullanımı önemlidir.Asagıda basit ve örnek bir case
+şablonu görebilirsiniz.
+
+               
+                girilen_deger=$1
+
+
+                case $girilen_deger  in
+             
+               "fatih"  )
+                echo "fatih secildi";;       Not : Kodunu yazdıktan sonra ;; koymayı unutma !
+
+
+               "semih"  )
+                echo "semih secildi";;
+
+
+                  *)                         Not : *) ---> eger secimlerim icerisinde yoksa
+                                                           ekrana gecersiz secim yazdırıcak.
+                echo "gecersiz secim"
+
+                 esac                        Not : esac ile de son olarak case mizi kapattık.
+                                            
+
+---------------------------------------------------------------------------------------------------
+
+Not : Biz aynı sekilde regular ifadeleri de case lerimizde kullanabiliriz.Örneğin ;
+
+
+                    [a-Z]  )
+                echo "metin yazildi";;          ---> [a-Z] regular bir ifadededir ve a ile z 
+                                                     arasındaki harfleri belirtir.
+
+
+
+                  [0-9]  )
+                echo "sayi yazildi";;          ---> [0-9] 0'dan 9'a kadar olan rakamları yazsın
+
+
+---------------------------------------------------------------------------------------------------
+
+
+
