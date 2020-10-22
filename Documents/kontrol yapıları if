@@ -1,0 +1,50 @@
+# Kontrol Yapıları ve Döngüler #
+
+# Kontrol Yapıları (if) #
+
+
+Ana Şablon Bu Şekildedir ; 
+
+
+    if  kosul
+
+    then
+
+     #istediğim kodlar calisicak
+
+    else
+
+     #şart gerceklesmezse calisicak
+
+    fi 
+
+     #döngümüzü if'in tersi fi yazarak kapatıyoruz
+
+---------------------------------------------------------------------------------------------------
+
+Not : 2. kosulu eklemek icin elif kullanılır
+
+
+     if  1.kosul
+     
+     then
+
+     elif  2.kosul
+
+     then 
+
+     else
+  
+     if
+
+---------------------------------------------------------------------------------------------------
+
+Önemli Not : -eq , -ne gibi parametrelerle yaptığımız karsılastırmaları <,=> gibi kücük büyük 
+             isaretleriylede yapabiliriz.Ancak ikisinin parantez kullanımı farklıdır,buna dikkat 
+             edilmesi gerekir!
+
+
+Önemli Not : Integer verilerde olduğu gibi aynı sekilde string karsılatırmalarıda yapabiliriz.
+             String mantığında alfabetik sıralamaya göre kelimeleri sıralar. ( A < Z ) diyebiliriz.
+
+
