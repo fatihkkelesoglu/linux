@@ -1,0 +1,44 @@
+# Kontrol Yapıları ve Döngüler #
+
+# And ve Or Operatörleri #
+
+-a  ---> AND operatörü olarak kullanılır,AND operatörü yazdığınız kosulların yüzde yüz birbirine
+         tutmasını ister,eğer bu olmaz ise bir alt satıra geçmez.
+
+&&  --- (AND)
+
+
+-------------------------------------------------------------------------------------------------
+
+-o ---> OR operatörü olarak kullanılır.OR operatörü mantığı ise girilen kosullardan birinden biri
+        tutsun benim icin yeterlidir,hepsinin birbirine tutmasına gerek yok seklinde calisir.
+        Bu yüzden AND'den farkli bir calisma mantigi vardir.
+
+|| ---> (OR)
+
+
+---------------------------------------------------------------------------------------------------
+
+Önemli Not : Eger -a ve -o seklinde parametreleri kullanırsak [    ] tek kareli parantez icine
+             alıp kullanım saglıyoruz.
+
+              
+                        if [ $a -gt $b -a $b -eq $c ]
+
+---------------------------------------------------------------------------------------------------
+
+Önemli Not : Eger biz && veya || kullanmak istiyorsak [[       ]] cift kareli parantez icine alıp
+             kullanım saglıyoruz.
+
+
+                        if [[ $a -gt $b && $b -eq $c ]]
+
+---------------------------------------------------------------------------------------------------
+
+Veya bu sekilde iki ayrı kosulmus gibi yazarak kullanım saglayabiliriz ;
+
+
+                        if [ $a -gt $b ] -a [ $b -eq $c ]
+
+
+
