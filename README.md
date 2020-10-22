@@ -43,3 +43,5 @@ Bu projemde linux eğitimlerime ve çalışmalarıma devam ederken öğrendiğim
 
 18- Kullanıcı Degiskenleri
 
+19- Degişkenlere Dışarıdan Veri Almak
+
