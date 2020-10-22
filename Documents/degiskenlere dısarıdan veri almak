@@ -1,0 +1,91 @@
+# Degiskenlere Dısarıdan Veri Almak #
+
+
+
+read ---> read komutu kullanıcıdan bir veri almaya yarar ve bunun icin kullanılır.
+
+
+
+               read     isim
+           
+               echo     "Girilen İsim: "$isim
+
+
+#Bu sekilde degiskenlere aldığımız verileri cok rahatlıkla dinamik olarak kullanabiliriz.
+
+
+
+--------------------------------------------------------------------------------------------------
+
+
+               echo    "Istediginiz degerleri giriniz: "
+
+              
+               read -a isimler
+               
+               echo  ${isimer[1]}
+
+
+#Bu sayede kullanıcıdan sınırsız bilgi alıp,içinden istedigimiz bilgiye ulasırız.
+
+
+--------------------------------------------------------------------------------------------------
+
+
+               echo -p  "İsminizi Giriniz: "isim
+          
+               echo $isim
+
+
+#Bu sekilde -p parametresini kullanarak "isminizi giriniz" mesajını da kullanmıs olduk.
+
+
+
+Not : eger -p parametresini kullanmasaydık !
+
+
+               
+              echo  "İsminizi Girin: "
+
+              echo  isim
+
+              echo $isim
+
+
+#Bu sekilde yazsaydık daha fazla kod satırı olucaktı.Bu yüzden -p parametresinin kullanımı
+ hem zaman tasarrufu ve kullanım kolaylıgı acısından önemlidir.
+
+
+---------------------------------------------------------------------------------------------------
+
+
+Önemli Not : -p parametresinin önüne s parametresi eklersek ve bunları birlestirip -sp yaparsak, 
+             yazılan verinin gizli gözükmesini saglarız.Örneğin sifre istersen kullanılabilir.
+
+
+#Ancak sifre ekrana yazılırken gizlenicektir echo komutu girilen veriyi gösterirken veri gözükür.
+Sadece yazılırken karakterler gizi gözükür.Yani kısacası kullanıcı sifresini girerken o an 
+birilerinin görmemesini saglıyoruz diyebiliriz.
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
