@@ -1,0 +1,32 @@
+# Diger İslemler #
+
+# Global & Local İslemler #
+
+
+Örnek Kullanım ; 
+
+
+                    function sonuc(){
+
+                     local yas=$1                            
+  
+                      echo "F- Yaşım : $yas"
+
+                 }
+
+                     yas=15
+                   
+                     echo "-Yaşım $yas"
+
+                     sonuc 20
+
+                     echo "-Yaşım: $yas"
+
+
+Not : Bizim function dan sonra süslü parantez içinde yazdığımız kodlarımız local degiskenlerimizdir.
+      Asagıda süslü parantezin dısına yazdıklarımız ise global degiskenlerimizdir.
+
+Önemli Not : Üst kısımda local yazarak normalde aynı isimle kullandıgımız yas degiskenine su mesajı
+             vermis oluruz.Sadece local sınırları icinde calıs,globaldeki degiskenleri degistirme !
+             Bu sınırların dısına cıkıp seninle aynı isimdeki degiskenlere islem yapma sadece
+             local icinde calis diyoruz.

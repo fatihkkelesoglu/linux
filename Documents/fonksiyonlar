@@ -1,0 +1,31 @@
+# Kontrol Yapıları ve Döngüler #
+
+# Fonksiyonlar #
+
+
+
+Fonksiyonlar bizi tekrar tekrar bazı kodları yazmaktan kurtarır.
+
+
+Fonksiyon Kullanım Örneği ;
+
+                      
+                     read -p "Bir Sayı Giriniz" sayi
+
+
+                   function İkiyleCarp(){
+
+                        echo "Sonuc: $((sayı*2))"
+
+                     }
+
+
+                     İkiyleCarp
+
+
+Not : Fonksiyon kullanımı önemlidir ve bize aynı kodları tekrar tekrar yazmama konusunda hem
+      zaman hem kullanım olarak avantaj sağlar.
+
+
+
+

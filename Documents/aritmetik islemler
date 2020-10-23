@@ -1,0 +1,67 @@
+# Diger İslemler #
+
+# Aritmetik İslemler #
+
+
+Aritmetik islemlerin 3 tip kullanımı vardır ;
+
+1.Yöntem ;
+
+
+          echo $((    ))    ---> bos sablon hali
+
+          echo $(( $a + $b))
+	  echo $(( $a - $b))
+          echo $(( $a * $b))
+          echo $(( $a / $b))
+          echo $(( $a % $b))
+
+Not :     echo $(( a++ ))  ---> 1 arttırma islemidir
+
+--------------------------------------------------------------------------------------------------
+
+2.Yöntem ; 
+
+
+          echo $( expr       )  ---> bos sablon hali
+
+          echo $( expr $a + $b )
+          echo $( expr $a - $b )
+          echo $( expr $a * $b )
+          echo $( expr $a / $b )
+          echo $( expr $a % $b )
+
+
+Not : Burada dikkat etmemiz gereken 2 önemli nokta vardır.Birincisi cift parantez degil,tek parantez
+      ile kullanım saglarız.İkincisi ile expr komutunu kullanırız.
+
+
+Önemli Not : Eger 2.yöntemi kullanıp carpma islemi yapmak istersek echo $( expr $a \* $b ) 
+             komutumuzun icindeki carpma isleminden önce birtane ters slash koyuyoruz.
+             Eger koymazssak expr komutu ile carpma islemi saglayamayız,cünkü tanımaz.
+             Bu expr ile kullanımda dikkat edilmesi gereken bir durumdur.
+
+
+---------------------------------------------------------------------------------------------------
+
+3.Yöntem ;
+
+
+              echo " $a + $b " | bc
+              echo " $a - $b " | bc
+              echo " $a * $b " | bc
+              echo " $a / $b " | bc
+              echo " $a % $b " | bc
+
+
+Not : 3.yöntemi float degerlerle islem yaparken yani virgüllü sayılarla islem yaparken kullanırız.
+
+Önemli Not : Eger 3.yöntemi kullanarak virgüllü sayılarla islem yapıyorsan ve sayıların virgülden
+             sonraki kısımlarını görmek istiyorsan.Yani virgülden sonra kac karakterin gözükücegini
+             belirtmemiz gerekiyor.
+
+
+Örnek ;            echo "scale=2; $a + $b " | bc   ---> Virgülden sonra 2 karakter göster demek
+
+
+Not : 3. yöntemi kullanırken parantez değil "          " kullanırız.
