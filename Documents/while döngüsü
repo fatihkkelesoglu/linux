@@ -1,0 +1,32 @@
+# Kontrol Yapıları ve Döngüler #
+
+# While Döngüsü #
+
+
+
+Belirli bir kosul gerceklesene kadar kodumuzun calısmasını saglıyor ve o degere ulastıgında
+kodumuzun calısması duruyor.
+
+
+Bir while döngüsü örneği ;
+
+
+                         
+                       sayi=0
+
+                       while  (( $sayi <= 10 ))
+
+                       do
+
+                        echo $sayi
+                         
+                        (( sayi++ ))
+
+                       done
+
+
+Sonuç : Ekrana 10 sayısı gelene kadar 1,2,3,4 seklinde yazdırıcaktır.Son degeri buldugumuzda
+        kodumuz calisması durdurucaktır.
+
+Not : sleep komutu ile bekleme ekleyebiliriz.Örneğin echo $sayi komutundan sonra sleep 1 yazarsak
+      1 saniye bekle öyle islem yap demektir.

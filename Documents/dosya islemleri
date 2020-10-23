@@ -1,0 +1,42 @@
+# Diger İslemler #
+
+# Dosya İslemler #
+
+Asagıda en cok kullanılan dosya islemleri parametrelerini görebilirsiniz,baska parametreler de
+mevcuttur ancak en cok kullanılanlar bunlar diyebiliriz.
+
+
+       -f    ---> dosya var
+  
+       -s    ---> dosya bos degil
+
+       -r    ---> dosya okunabilir
+
+       -w    ---> yazılabilir
+
+       -x    ---> calıstırılabilir
+
+       -d    ---> dizin
+
+
+
+
+Kullanım Örneği ;
+
+
+
+          dosyaismi=$1
+
+          if [ -f $dosyaismi ]
+
+            then 
+
+            echo "Dosya Var"
+
+            else
+
+            echo "Dosya Bulunamadı"
+
+         fi
+
+

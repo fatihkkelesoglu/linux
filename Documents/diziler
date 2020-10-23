@@ -1,0 +1,55 @@
+# Kontrol Yapıları ve Döngüler #
+
+# Diziler #
+
+
+
+Bir diziyi olusturabilmek icin önce o diziye isim vermemiz gerekiyor.
+
+Dizi Örneği ;
+
+
+                   ögrenciler=( 'Fatih' 'Semih' 'Ferit')
+
+                   echo "${isimler[@]}"
+
+
+Not : Eger isimler kısmının önüne ! koyarsak hangi girdinin hangi dizin sırasına ait oldugunu
+       gösterir.Kısacası index numaralarını sıralar.
+
+
+                       echo "${!isimler[@]}"
+
+
+
+Not : Eger isimler kısmının önüne # koyarsak dizimdeki eleman sayısının adedini gösterir.
+
+
+                       echo "${#isimler[@]}"
+
+
+Not : Tüm elemanlara @ isareti koyarak erisebiliriz.Ancak biz belirli elemanla islem yapmak
+      istiyorsak @ yerine 1 2 3 gibi hangi dizindeki elemanı istiyorsak bu sekilde de 
+      belirtebiliriz.
+
+
+                       echo "${isimler[2]}"
+
+---------------------------------------------------------------------------------------------------
+
+Eğer dizinimize bir eleman eklemek istiyorsak;
+
+                    
+                        öğrenciler[3]='Burak'
+
+
+Eğer dizinimizden bir eleman silmek istiyorsak;
+
+
+                        unset öğrenciler[1]
+
+Önemli Not : unset komutu ile dizimin 1.indexindeki elemanın silme islemini yaptığımda hem elemanı
+             diziden siler hemde ! listeleme yaptığında 1 numarasının index listesinden de silin
+             diğini görürüz.
+
+

@@ -1,0 +1,64 @@
+# Kontrol Yapıları ve Döngüler #
+
+# For Döngüsü (Break,Continue) #
+
+
+
+Bunlar daha cok döngülerde kullanılıyor,döngünün belirli bir noktasında cıkmak istiyebiliriz veya
+döngüyü basa döndürmek isteyebiliriz.Iste bu tip durumlarda break ve continue komutlarını kullanırız.
+
+
+Break Kullanımı ;
+
+
+                       for (( i=0;i<=10;i++ ))
+
+                       do 
+
+                          if [ $i -gt 5 ]
+
+                       then
+
+                       break
+
+                        fi
+                       
+                        echo $i
+
+                     done
+
+
+Not : Bu örnekte for döngüsüyle break kullanımı örneği görebilirsiniz.Kısacası benim sayım 1 den 
+baslayıp 10 a kadar giderken 5 e esit oldugunda döngüyü sonlandır ve döngüden çık anlamına gelir.
+
+Not : Break döngü sonlandırır !
+
+
+--------------------------------------------------------------------------------------------------
+
+
+Continue Kullanımı ;
+
+
+                      for (( i=0;i<=10;i++ ))
+
+                      do
+
+                             if [ $i -eq 3 -o $i -eq 7 ]
+                      then
+
+                      continue
+
+                             fi
+
+                       echo $i
+ 
+                     done
+
+Not : Bu örnekte aynı sekilde döngüm 0 dan baslayacak sıralanarak 10 a kadar gidecek ancak eger
+      3 ve 7 e esit olursa bizi döngüden atmak yerine continue kullandıgımız icin döngünün
+      basına gönderir.Bu sayede ekranımızda 3 ve 7 gözükmez cünkü döngümüz devam eder 
+      sadece kural geregi calısmaması gerekenler calısmaz ve ekranda gözükmez.
+
+
+Not : Continue döngünün başına gönderir,döngüden çıkarmaz !

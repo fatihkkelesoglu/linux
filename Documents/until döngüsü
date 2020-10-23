@@ -1,0 +1,22 @@
+# Kontrol Yapıları ve Döngüler #
+
+# Until Döngüsü #
+
+
+Until döngüsü cok aktif kullanılmıyor ancak karsımıza cıkabilir.Kullanımı diger döngülere cok
+benzemektedir.
+
+
+Until Döngüsü Örneği ;
+
+
+                         i=1
+
+                         until (( $i >= 9 ))
+
+                         do
+
+                             echo $i
+                             ((i++))
+
+                         done
